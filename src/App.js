@@ -3,7 +3,8 @@ import './App.css';
 // import AboutPage from './components/AboutPage';
 import Profile from './components/Profile/Profile';
 // import ShoppingList from './components/ShoppingList/ShoppingList';
-import Counters from './components/Counters/Counters';
+// import Counters from './components/Counters/Counters';
+import ShareCounters from './components/Counters/ShareCounters';
 function App() {
   return (
     <div>
@@ -12,9 +13,10 @@ function App() {
     {/* <MyButton />  */}
     <Profile />
     <br />
-    <Counters name="Mybtn1"/>
+    {/* <Counters name="Mybtn1"/> */}
+    <ShareCounters />
     <br />
-    <Counters name="Mybtn2" />
+    {/* <Counters name="Mybtn2" /> */}
     {/* <ShoppingList /> */}
     </div>
     
