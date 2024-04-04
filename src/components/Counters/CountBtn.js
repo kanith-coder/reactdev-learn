@@ -1,4 +1,3 @@
-import { useState } from 'react';
 
 function CountBtn(props) {
     const { name, count, onclick } = props;
